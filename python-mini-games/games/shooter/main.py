@@ -82,3 +82,16 @@ def run_shooter(screen):
       player_y += 5
 
     if player x > width - 40:
+      player_x = width - 40
+    elif player_x < 0:
+      player_x = 0
+    
+    if player_y > height - 40:
+      player y = height - 40
+    elif player_y < 0:
+      player_y = 0
+
+      timer += 1
+        if timer % 60 = 0:
+          speed += 0.03
+
